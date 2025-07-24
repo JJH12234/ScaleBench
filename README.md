@@ -7,7 +7,7 @@ Recognition </h1>
   <p align="center">  
 <!--     <a href="">arxiv</a> -->
     ·
-    <a href="https://github.com/JJH12234/ScaleBench/blob/main/Dateset/dataset/train.jsonl">github</a>
+    <a href="https://github.com/JJH12234/ScaleBench/blob/main/Dataset/dataset/train.jsonl">github</a>
     ·
     <a href="https://github.com/JJH12234/ScaleBench/blob/main/LICENSE">license</a>
 <!--     <a href="">benchmark</a> -->
@@ -38,7 +38,7 @@ Recognition </h1>
 The dataset comprises 6,574 samples and 5,371 images, with 1,112 images associated with multiple questions.Our benchmark covers common units and measurement objects across 13 major categories of physical quantities, aiming to ensure a diverse set of questions. We report the frequency of different units and the
 number of measurement objects for each physical quantity.To address the limitations of existing datasets, we clearly define annotation guidelines for ScaleBench.
 ### Examples
-The following figures list some classic examples in our dataset. You can click out [`Examples`](Examples) to view partial details of the dataset.
+The following figures list some classic examples(500 images) in our dataset. You can click out [`Examples`](Examples) to view partial details of the dataset.
 
 ### Detail Information
 The following table [`Splits/`](Comparison/splits.png) lists the detailed information statistics of the splited dataset.
@@ -49,7 +49,7 @@ _Due to the fact that only redirecting to the specified file is valid in anonymo
 
 
 ## 2 Access ScaleBench
-Due to anonymity requirements, our dataset will be released at a later date.
+Due to anonymity requirements, our dataset is temporarily stored in [`Images`](Images). It will be published on [huggingface](https://huggingface.co) later.
 
 ###  Data Split
 As reported in the folloeing table, ScaleBench contains 6,574 samples, divided into training, validation, and test sets according to a 7:1:2 ratio.
@@ -105,10 +105,10 @@ python gemini2.5_fewshot.py
 python gpt4o_zeroshot.py
 python gpt4o_fewshot.py
 ```
-Gemini needs to apply on the [official website](https://aistudio.google.com/app/apikey), and GPT4 needs to be purchased on the [official website](https://openai.com/).
+Gemini-2.5-pro needs to apply on the [official website](https://aistudio.google.com/app/apikey), and GPT-4o needs to be purchased on the [official website](https://openai.com/).
 
 ### Evaluation
-You can process the results of model inference through the code we provide to calculate overall accuracy, overall P, R, F1 indicators, the accuracy of each physical quantity category. We integrate the calculation process into the Python files in the directory **_(Code/eval)_**:
+You can process the results of model inference through the code we provide to calculate overall accuracy,the accuracy of each physical quantity category, overall P, R, F1 indicators,. We integrate the calculation process into the Python files in the directory **_(Code/eval)_**:
 ```
 python calculate_prf1.py
 python calculate_acc.py
