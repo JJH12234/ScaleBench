@@ -11,10 +11,10 @@ CUDA_VISIBLE_DEVICES=3 llamafactory-cli train \
     --dataset_dir data \
     --dataset your_dataset \
     --cutoff_len 2048 \
-    --learning_rate 2e-04 \
-    --num_train_epochs 10 \
+    --learning_rate 2e-05 \
+    --num_train_epochs 6 \
     --max_samples 100000 \
-    --per_device_train_batch_size 2 \
+    --per_device_train_batch_size 4 \
     --gradient_accumulation_steps 16 \
     --lr_scheduler_type cosine \
     --max_grad_norm 1.0 \

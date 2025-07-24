@@ -9,9 +9,9 @@ swift sft \
     --train_type lora \
     --dataset train.json \
     --torch_dtype float16 \
-    --num_train_epochs 10 \
-    --per_device_train_batch_size 2 \
-    --learning_rate 2e-4 \
+    --num_train_epochs 6 \
+    --per_device_train_batch_size 4 \
+    --learning_rate 2e-5 \
     --lora_rank 32 \
     --lora_alpha 16 \
     --target_modules all-linear \
@@ -23,4 +23,4 @@ swift sft \
     --output_dir mPLUG-Owl3-7B \
     --system 'You are currently a senior expert in scale and measurement recognition.' \
     --dataloader_num_workers 16 \
-    --split_dataset_ratio 0
+    --optim adamw_torch \
