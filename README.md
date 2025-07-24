@@ -7,7 +7,7 @@ Recognition </h1>
   <p align="center">  
 <!--     <a href="">arxiv</a> -->
     ·
-    <a href="https://github.com/JJH12234/ScaleBench/blob/main/Dateset/dataset/train.jsonl">github</a>
+    <a href="https://github.com/JJH12234/ScaleBench/blob/main/Dataset/dataset/train.jsonl">github</a>
     ·
     <a href="https://github.com/JJH12234/ScaleBench/blob/main/LICENSE">license</a>
 <!--     <a href="">benchmark</a> -->
