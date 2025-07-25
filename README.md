@@ -65,7 +65,7 @@ Each `jsonl` file is of the following format:
 {"..."}
 ```
 Each line is an individual data point.
-`image`  denotes name of the image . `question`  is the question with manual annotation, `options`  is reasonable numerical options.
+`image` denotes name of the image . `question` is the question with manual annotation, `options` is reasonable numerical options.
 <br>
 ScaleBench covers 13 commonly used physical quantities, spanning 33 types of measurement objects and 38 scale units, thereby aligning more closely with real-world application scenarios.You can see all of them in the file [`U & O type/`](Dataset/type/Units_and_Object.png). 
 
