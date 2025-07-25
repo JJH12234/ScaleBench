@@ -41,7 +41,7 @@ number of measurement objects for each physical quantity.To address the limitati
 The following figures list some classic examples(500 images) in our dataset. You can click out [`Examples`](Examples) to view partial details of the dataset.
 
 ### Detail Information
-The following table [`Splits/`](Comparison/splits.png) lists the detailed information statistics of the splited dataset.
+The following table [`Splits`](Comparison/splits.png) lists the detailed information statistics of the splited dataset.
 <br>
 You can find our dataset through the following path **_(Dataset/dataset)_** for more details.
 <br>
