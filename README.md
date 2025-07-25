@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <h1 align="center"> 🔭Tiny Scales, Great Challenges: The Limits of Multimodal LLMs in Scale
+  <h1 align="center"> 📐Tiny Scales, Great Challenges: The Limits of Multimodal LLMs in Scale
 Recognition </h1>
   <h3 align="center">ScaleBench: A new benchmark dataset for scale recognition of MLLMs.</h3>
   
