@@ -100,10 +100,14 @@ def main():
             r = (A_recall + B_recall + C_recall + D_recall) / 4
             f1 = 2 * p * r / (p + r) if (p + r) > 0 else 0
 
-            
+            # Accuracy
+            correct_count = sum(1 for data in data_list if data['output'] == data['answer'])
+            acc = correct_count / len(data_list) if len(data_list) > 0 else 0
+
             result_out.write(f"Precision: {p:.4f}\n")
             result_out.write(f"Recall: {r:.4f}\n")
-            result_out.write(f"F1 Score: {f1:.4f}\n\n")
+            result_out.write(f"F1 Score: {f1:.4f}\n")
+            result_out.write(f"Accuracy: {acc:.4f}\n\n")
     
     print(f"Evaluation results saved to file: {result_file}")
 
