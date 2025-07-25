@@ -23,13 +23,7 @@ model = AutoModel.from_pretrained(
 model = model.to(device).eval().cuda()
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 processor = model.init_processor(tokenizer)
-# config = mPLUGOwl3Config.from_pretrained(MODEL_PATH)
-# print(config)
-# # model = mPLUGOwl3Model(config).cuda().half()
-# model = mPLUGOwl3Model.from_pretrained(MODEL_PATH, attn_implementation='sdpa', torch_dtype=torch.half)
-# model.to(device).eval().cuda()
-# tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
-# processor = model.init_processor(tokenizer)
+
 
 count = 0
 right_count = 0
