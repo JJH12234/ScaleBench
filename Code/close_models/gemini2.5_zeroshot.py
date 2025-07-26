@@ -77,8 +77,8 @@ def process_single_data(data, image_dir):
         
         
         prompt = f'You are currently a senior expert in scale recognition.\n' \
-                f'Given an Image, a Question and Options, your task is to identify the scale value and select the correct option.\n'
-                f'Note that you only need to choose one option from all options without explaining any reason.\n'
+                f'Given an Image, a Question and Options, your task is to identify the scale value and select the correct option.\n' \
+                f'Note that you only need to choose one option from all options without explaining any reason.\n' \
                 f'Input: Image:<image>, Question: {data["question"]}, Options: {"; ".join(data["options"])}. \nOutput:' 
         # Construct image path
         image_path = os.path.join(image_dir, data['image'])

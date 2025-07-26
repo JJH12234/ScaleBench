@@ -193,7 +193,7 @@ def process_single_data(data, image_dir):
         
         # Build few-shot prompt
         prompt = f'You are currently a senior expert in scale recognition.\n' \
-                f'Given an Image, a Question and Options, your task is to identify the scale value and select the correct option.\n'
+                f'Given an Image, a Question and Options, your task is to identify the scale value and select the correct option.\n' \
                 f'Note that you only need to choose one option from all options without explaining any reason.\n'
         
         if NUM_EXAMPLES > 0:
