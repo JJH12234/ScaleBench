@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <h1 align="center"> 🔭Tiny Scales, Great Challenges: The Limits of Multimodal LLMs in Scale
+  <h1 align="center"> 📐Tiny Scales, Great Challenges: The Limits of Multimodal LLMs in Scale
 Recognition </h1>
   <h3 align="center">ScaleBench: A new benchmark dataset for scale recognition of MLLMs.</h3>
   
@@ -41,7 +41,7 @@ number of measurement objects for each physical quantity.To address the limitati
 The following figures list some classic examples(500 images) in our dataset. You can click out [`Examples`](Examples) to view partial details of the dataset.
 
 ### Detail Information
-The following table [`Splits/`](Comparison/splits.png) lists the detailed information statistics of the splited dataset.
+The following table [`Splits`](Comparison/splits.png) lists the detailed information statistics of the splited dataset.
 <br>
 You can find our dataset through the following path **_(Dataset/dataset)_** for more details.
 <br>
