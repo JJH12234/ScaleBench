@@ -39,13 +39,13 @@ The dataset comprises 6,574 samples and 5,371 images, with 1,112 images associat
 number of measurement objects for each physical quantity.To address the limitations of existing datasets, we clearly define annotation guidelines for ScaleBench.
 ### Examples
 The following figures list some classic examples(500 images) in our dataset. You can click out [`Examples`](Examples) to view partial details of the dataset.
-
+_Due to the fact that only redirecting to the specified file is valid in anonymous links, redirecting to the specified directory is invalid. Therefore, we use bold and italicized font to indicate the markings of all specified directories, making it easier for reviewers to search. Thank you!_
 ### Detail Information
 The following table [`Splits`](Comparison/splits.png) lists the detailed information statistics of the splited dataset.
 <br>
 You can find our dataset through the following path **_(Dataset/dataset)_** for more details.
 <br>
-_Due to the fact that only redirecting to the specified file is valid in anonymous links, redirecting to the specified directory is invalid. Therefore, we use bold and italicized font to indicate the markings of all specified directories, making it easier for reviewers to search. Thank you!_
+
 
 
 ## 2 Access ScaleBench
