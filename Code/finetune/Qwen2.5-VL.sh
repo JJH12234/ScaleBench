@@ -24,8 +24,6 @@ CUDA_VISIBLE_DEVICES=0 llamafactory-cli train \
     --logging_steps 10 \
     --save_steps 100 \
     --warmup_steps 0 \
-    --packing False \
-    --report_to none \
     --output_dir Qwen2.5-VL-7B-Instruct \
     --fp16 True \
     --plot_loss True \

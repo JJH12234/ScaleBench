@@ -24,6 +24,10 @@ CUDA_VISIBLE_DEVICES=3 llamafactory-cli train \
     --output_dir Llama-3.2-11B \
     --fp16 True \
     --plot_loss True \
+    --trust_remote_code True \
+    --ddp_timeout 180000000 \
+    --include_num_input_tokens_seen True \
+    --optim adamw_torch \
     --lora_rank 32 \
     --lora_alpha 16 \
     --lora_dropout 0 \

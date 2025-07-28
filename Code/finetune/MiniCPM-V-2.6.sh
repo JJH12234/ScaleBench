@@ -22,9 +22,12 @@ CUDA_VISIBLE_DEVICES=2 llamafactory-cli train \
     --save_steps 100 \
     --warmup_steps 0 \
     --output_dir MiniCPM-V-2_6-8B \
-    --trust_remote_code True \
     --fp16 True \
     --plot_loss True \
+    --trust_remote_code True \
+    --ddp_timeout 180000000 \
+    --include_num_input_tokens_seen True \
+    --optim adamw_torch \
     --lora_rank 32 \
     --lora_alpha 16 \
     --lora_dropout 0 \
