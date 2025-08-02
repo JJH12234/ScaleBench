@@ -21,6 +21,6 @@ swift sft \
     --logging_steps 10 \
     --max_length 2048 \
     --output_dir mPLUG-Owl3-7B \
-    --system 'You are currently a senior expert in scale and measurement recognition.' \
+    --system 'You are currently a senior expert in scale recognition.' \
     --dataloader_num_workers 16 \
     --optim adamw_torch \

@@ -21,7 +21,7 @@ swift sft \
     --logging_steps 20 \
     --max_length 1024 \
     --output_dir Phi-3.5-vision \
-    --system 'You are currently a senior expert in scale and measurement recognition.' \
+    --system 'You are currently a senior expert in scale recognition.' \
     --dataloader_num_workers 16 \
     --gradient_checkpointing false \
     --attn_impl eager \

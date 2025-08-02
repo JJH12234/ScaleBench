@@ -21,6 +21,6 @@ swift sft \
     --logging_steps 20 \
     --max_length 8000 \
     --output_dir llava-v1.6-mistral-7b \
-    --system 'You are currently a senior expert in scale and measurement recognition.' \
+    --system 'You are currently a senior expert in scale recognition.' \
     --dataloader_num_workers 16 \
     --optim adamw_torch \
